@@ -87,8 +87,8 @@ function AdminDashboard() {
       setUpdatingDonor(prevState => ({ ...prevState, [name]: value }));
     } else {
       setNewDonor(prevState => ({ ...prevState, [name]: value }));
-    }
-  };
+    } 
+  }; 
   const handleUpdate = (donor) => {
     setUpdatingDonor(donor);
     setDialogOpen(true);
