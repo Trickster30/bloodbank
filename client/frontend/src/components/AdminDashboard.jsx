@@ -85,7 +85,7 @@ function AdminDashboard() {
     const { name, value } = event.target;
     if (updatingDonor) {
       setUpdatingDonor(prevState => ({ ...prevState, [name]: value }));
-    } else {
+    } else { 
       setNewDonor(prevState => ({ ...prevState, [name]: value }));
     } 
   }; 
